@@ -12,12 +12,6 @@
 					
 					 
 					<div class="form-group">
-					<label for="iddp">Diagnóstico particular</label>
-					<br>
-						
-						<textarea rows="4" cols="50" disabled><?= $caso->diagnosticoPreliminar?></textarea>
-					</div>
-					<div class="form-group">
 						<button type="submit" id="loginBoton" class="btn btnEstandar">Enviar Solicitud</button>
 					</div>	
 					<input type="hidden" name="idCaso" value="<?=$caso->id?>">		

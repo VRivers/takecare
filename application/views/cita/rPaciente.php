@@ -85,12 +85,7 @@
              		<div class="col-sm-3"><?= $cita->caracter?></div>
              		<div class="col-sm-2">
              			
-                 		<?php if($caso->estado == "Aceptada"):?> 
-                 			<form style="float:right;" action="<?=base_url()?>cita/dPostPaciente" method="post">
-                 			<input type="hidden" name="idCita" value="<?=$cita->id?>">
-                 		    <input type="hidden" name="idCaso" value="<?=$caso->id?>">
-                       		<button class="botonInformacionCita btn btn-danger btn-sm">✖</button> 
-                       		</form>  
+
                        		
                        		<?php if($cita->fechaAnterior == null):?>   
                  		    <form style="float:right;" action="<?=base_url()?>persona/solicitarCambioCita" method="get">
@@ -104,8 +99,7 @@
                      		<form style="float:right; visibility:hidden;" action="<?=base_url()?>cita/#" method="post">
                       		<button class="botonInformacionCita btn btn-success btn-sm"><i class="fas fa-check"></i></button>  
                       		</form>
-                   		<?php endif;?>
-                   		
+                   	
                    		
              		</div>
              		<?php endif;?>             	            	

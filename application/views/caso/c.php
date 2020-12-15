@@ -36,7 +36,7 @@
 					<div class="form-group">
 					<label for="iddp">Diagnóstico preliminar</label>
 					<br>
-						<textarea name="diagnosticoPrevio" placeholder="Indica brevemente tus sintomas actuales y dolencias" rows="4" cols="50"></textarea>
+						<textarea name="diagnosticoPrevio" placeholder="Indica brevemente tus sintomas actuales y dolencias" rows="4" cols="50" style="resize: none"></textarea>
 					</div>
 
 					<div class="form-group">
